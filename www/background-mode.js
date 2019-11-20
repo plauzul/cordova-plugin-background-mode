@@ -195,11 +195,11 @@ exports.excludeFromTaskList = function() {
  *
  * @return [ Void ]
  */
-//exports.overrideBackButton = function() {
-//    document.addEventListener('backbutton', function() {
-//        exports.moveToBackground();
-//    }, false);
-//};
+exports.overrideBackButton = function() {
+    document.addEventListener('backbutton', function() {
+        exports.moveToBackground();
+    }, false);
+};
 
 /**
  * If the screen is off.
